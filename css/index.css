@@ -276,3 +276,6 @@ footer address {
 footer .copywrite {
   text-align: center;
 }
+img {
+  max-width: 100%;
+}

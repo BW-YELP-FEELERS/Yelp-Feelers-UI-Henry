@@ -159,10 +159,12 @@ body {
   font-size: 62.5%;
   line-height: 1.7;
   font-weight: 400;
+  background: #f2f2f0;
 }
 body .main-content-container {
   max-width: 1000px;
   margin: 1.5rem;
+  margin: 0 auto;
 }
 body .main-content-container h1 {
   font-size: 2.3rem;
@@ -197,7 +199,7 @@ body ul {
 .nav-bar .main-nav a {
   margin: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: #252223;
 }
 @media (max-width: 500px) {
   .nav-bar .main-nav a {
@@ -209,12 +211,19 @@ body ul {
   color: #7a87b0;
   cursor: pointer;
 }
+.middle-containers {
+  background: rgba(217, 89, 100, 0.3);
+}
 .lower-containers {
   display: flex;
   justify-content: center;
+  background: #d95964;
 }
 .lower-containers ul.b li {
   text-align: center;
+}
+.even-lower-containers {
+  background: rgba(217, 89, 100, 0.3);
 }
 footer {
   display: flex;
@@ -246,7 +255,7 @@ footer .a-div nav {
 }
 footer .a-div nav a {
   font-size: large;
-  color: black;
+  color: #252223;
   text-decoration: none;
   margin: 2px;
   font-family: 'Anton', sans-serif;

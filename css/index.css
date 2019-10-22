@@ -180,8 +180,8 @@ body .main-content-container h3 {
   font-size: 1.3rem;
   text-align: center;
 }
-body ul {
-  font-size: 1.5rem;
+body p {
+  font-size: 1.2rem;
 }
 .nav-bar {
   display: flex;
@@ -200,6 +200,7 @@ body ul {
   margin: 1.5rem;
   text-decoration: none;
   color: #252223;
+  font-size: 1.1rem;
 }
 @media (max-width: 500px) {
   .nav-bar .main-nav a {
@@ -218,9 +219,7 @@ body ul {
   display: flex;
   justify-content: center;
   background: #d95964;
-}
-.lower-containers ul.b li {
-  text-align: center;
+  font-size: 1.2rem;
 }
 .even-lower-containers {
   background: rgba(217, 89, 100, 0.3);
@@ -272,6 +271,7 @@ footer .a-div nav a:hover {
 }
 footer address {
   text-align: center;
+  font-size: 1.1rem;
 }
 footer .copywrite {
   text-align: center;
